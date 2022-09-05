@@ -1,0 +1,7 @@
+# application.yml
+spring:
+  profiles:
+    include: private  # -> application-private.yml? ???
+
+logging.level:
+  org.hibernate.SQL: debug
